@@ -1,5 +1,5 @@
 
-1. file 'ExchangeTest' contains detailed explanations for processing buy and sell orders
+1. file 'test/ExchangeTest.java' contains detailed explanations for processing buy and sell orders
    in method testSend().
 
 2.  methods getHighestBuyPrice() getLowestSellPrice() should use RequestRejectedException;
