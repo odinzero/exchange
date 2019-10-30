@@ -29,8 +29,7 @@ public class utils {
 
         ArrayList<Long> arrayList = new ArrayList<Long>();
 
-        while (arrayList.size() < n) { // how many numbers u need - it will 6
-            // int a = random.nextLong(k) + 1; // this will give numbers between 1 and 50.
+        while (arrayList.size() < n) { 
             Long a = Math.abs(random.nextLong());
 
             if (!arrayList.contains(a)) {
